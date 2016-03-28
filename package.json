@@ -15,7 +15,7 @@
     "plugin",
     "sync"
   ],
-  "author": "",
+  "author": "Egor Kislitsyn <serverless.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/serverless/serverless-meta-sync/issues"
