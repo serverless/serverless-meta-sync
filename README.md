@@ -34,5 +34,5 @@ npm install serverless-meta-sync --save
 Run: `serverless meta sync`.
 
 ### Options
-* `-s` `--stage` — Stage. Optional if only one stage is defined in project.
-* `-r` `--region` — Region. Optional.
+* `-s` `--stage` — Stage. Optional if only one stage is defined in project. This will sync the variables file of the specified stage.
+* `-r` `--region` — Region. Optional. This will sync the variables file for the specified region in the specified stage.
