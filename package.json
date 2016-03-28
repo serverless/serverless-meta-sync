@@ -1,7 +1,7 @@
 {
   "name": "serverless-meta-sync",
   "version": "0.0.1",
-  "description": "[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)",
+  "description": "This plugin allows you to share your Serverless project's meta files via S3 bucket.",
   "main": "lib/MetaSync.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
