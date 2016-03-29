@@ -20,7 +20,7 @@ npm install serverless-meta-sync --save
 
 * Add the plugin to the `plugins` array and to the `custom` object in your Serverless Project's `s-project.json`, like this:
 
-```
+```js
 "custom": {
   "meta": {
     "name": "YOUR_SYNC_S3_BUCKET_NAME",
