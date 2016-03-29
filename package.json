@@ -1,6 +1,6 @@
 {
   "name": "serverless-meta-sync",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "This plugin allows you to share your Serverless project's meta files via S3 bucket.",
   "main": "lib/MetaSync.js",
   "scripts": {
