@@ -4,9 +4,9 @@
 
 Secure syncing of Serverless project's meta data across teams (via S3 bucket).
 
-This plugin adds a `serverless meta sync` command.  When you run it with a stage or a region `-s dev -r us-east-1`, this plugin will first find or create an S3 bucket using the credentials you have set for that stage, then sync the variables files you have locally with the ones on the S3 bucket.  For example, running `serverless meta sync -s dev` will sync your project's `s-variables-dev.json` with the `s-variables-dev.json` located on the S3 bucket.  
+This plugin adds a `serverless meta sync` command.  When you run it with a stage or a region `-s dev -r us-east-1`, this plugin will first find or create an S3 bucket using the credentials you have set for that stage, then sync the variables files you have locally with the ones on the S3 bucket.  For example, running `serverless meta sync -s dev` will sync your project's `s-variables-dev.json` with the `s-variables-dev.json` located on the S3 bucket.
 
-When used via the CLI and conflicts are found, an interactive screen will let easily you select which option to use.  When used without the CLI, the files located remotely automatically overwrite the files located locally, which is useful when used in the beginning of CI processes. 
+When used via the CLI and conflicts are found, an interactive screen will let easily you select which option to use.  When used without the CLI, the files located remotely automatically overwrite the files located locally, which is useful when used in the beginning of CI processes.
 
 ## Demo
 [![asciicast](https://asciinema.org/a/40566.png)](https://asciinema.org/a/40566)
@@ -24,7 +24,10 @@ npm install serverless-meta-sync --save
 "custom": {
   "meta": {
     "name": "YOUR_SYNC_S3_BUCKET_NAME",
-    "region": "S3_BUCKET_REGION"
+    "region": "S3_BUCKET_REGION",
+
+    // Optional, by default: "serverless/PROJECT_NAME/variables/"
+    "keyPrefix": "S3_KEY_PREFIX"
   }
 },
 "plugins": [
