@@ -1,6 +1,11 @@
 # [Serverless](http://serverless.com/) Meta Sync Plugin
 
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+[![gitter](https://img.shields.io/gitter/room/serverless/serverless.svg)](https://gitter.im/serverless/serverless)
+[![version](https://img.shields.io/npm/v/serverless-meta-sync.svg)](https://www.npmjs.com/package/serverless-meta-sync)
+[![downloads](https://img.shields.io/npm/dm/serverless-meta-sync.svg)](https://www.npmjs.com/package/serverless-meta-sync)
+[![dependencies](https://img.shields.io/david/serverless/serverless-meta-sync.svg)](https://www.npmjs.com/package/serverless-meta-sync)
+[![license](https://img.shields.io/npm/l/serverless-meta-sync.svg)](https://www.npmjs.com/package/serverless-meta-sync)
 
 Secure syncing of Serverless project's meta data across teams (via S3 bucket).
 
