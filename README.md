@@ -48,3 +48,5 @@ Run: `serverless meta sync`.
 ### Options
 * `-s` `--stage` — Stage. Optional if only one stage is defined in project. This will only sync the variables file of the specified stage (e.g., `s-variables-dev.json`).
 * `-r` `--region` — Region. Optional. This will only sync the variables file for the specified region in the specified stage (e.g., `s-variables-dev-useast1.json`).
+* `-f` `--from-remote` — Optional. Explicitly sync remote variables to local.
+* `-t` `--to-remote` — Optional. Explicitly sync local variables to remote.
